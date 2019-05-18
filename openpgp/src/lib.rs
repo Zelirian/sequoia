@@ -55,6 +55,8 @@ extern crate flate2;
 #[cfg(feature = "compression-bzip2")]
 extern crate bzip2;
 
+extern crate subprocess;
+
 #[cfg(test)]
 #[macro_use]
 extern crate quickcheck;
